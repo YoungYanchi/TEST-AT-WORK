@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Тестовые задание</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+    <h1>Все мои объявления</h1>
+    <div class="menu">
+        <p class="active">Активные</p>
+        <div class="menu-counter">4</div>
+        <p>Архив</p>
+        <div class="menu-counter">2</div>
+        <p>Черновики</p>
+        <div class="menu-counter">2</div>
+    </div>
+    <div class="catalog">
+        <div class="catalog__filter">
+            <div class="catalog__filter__remove">
+                <label class="catalog__filter__remove_container-checkbox" for="check">
+                    <input class="checkbox" type="checkbox" name="" id="check">
+                    <span class="checkmark"></span>
+                </label>
+                <button class="btn-remove">Снять с публикации</button>
+            </div>
+
+            <div class="catalog__filter_all-ads">
+                Все объявления
+                <img src="/images/arrow_btn_down.svg" alt="">
+            </div>
+
+                <dl class="catalog__filter__sort">
+                    <dt><a><span class="span__sort">По дате публикации </span></a></dt>
+                    <dd>
+                        <ul>
+                            <li><a class="default arrow_up">По дате публикации</a></li>
+                            <li><a class="arrow_down">По дате публикации</a></li>
+                            <li><a class="arrow_up">По цене</a></li>
+                            <li><a class="arrow_down">По цене</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+
+<!--            <select class="catalog__filter__fltr" data-filter="type">-->
+<!--                <option value="date_up">По дате публикации-->
+<!--                    <img src="/images/arrow_up.svg" alt="">-->
+<!--                    <img class="catalog__filter_arrow-down" src="/images/arrow_btn_down.svg" alt="">-->
+<!--                </option>-->
+<!--                <option value="date_up" data-sort="date_up">По дате публикации up</option>-->
+<!--                <option value="date_down" data-sort="date_down">По дате публикации down</option>-->
+<!--                <option value="price_up" data-sort="price_up">По цене up</option>-->
+<!--                <option value="price_down" data-sort="price_down">По цене down</option>-->
+<!--            </select>-->
+        </div>
+
+<!--        <div class="catalog__product-card">-->
+<!--            <div class="catalog__product-card__img">-->
+<!--                <img src="/images/product1.svg" alt="img">-->
+<!--            </div>-->
+
+<!--            <div class="catalog__product-card__description">-->
+<!--                <h2 class="catalog__product-card_description_title">Куплю планшет Samsung</h2>-->
+<!--                <p class="catalog__product-card_description_price">5 000 ₽</p>-->
+<!--                <p class="catalog__product-card_description_date">Осталось 20 дней</p>-->
+<!--                <p class="catalog__product-card_description_place">Санкт-Петербург, ст. м. Маяковская</p>-->
+<!--                <p class="catalog__product-card_description_visibility">Видимость: всем зарегистрированным</p>-->
+<!--                <p class="catalog__product-card_description_tasks-type">Тип задания: одноэтапное</p>-->
+<!--                <p class="catalog__product-card__description_publication-type">Тип публикации: премиум</p>-->
+<!--            </div>-->
+
+<!--            <div class="catalog__product-card__dashboard">-->
+<!--                <div>Отклики 4 +1</div>-->
+<!--                <div>211 просмотров</div>-->
+<!--                <div>В избранном 0</div>-->
+<!--                <div>Подходят 0</div>-->
+<!--                <div><img src="/images/progress.svg" alt="">48%</div>-->
+<!--            </div>-->
+
+<!--            <div>-->
+<!--                <img src="/images/arrowbtn.svg" alt="img">-->
+<!--                <img src="/images/penbtn.svg" alt="img">-->
+<!--                <img src="/images/downloadbtn.svg" alt="img">-->
+<!--                <img src="/images/anotherbtn.svg" alt="img">-->
+<!--                <div/>-->
+            </div>
+        </div>
+    </div>
+</div>
+<script src="jquery-3.6.1.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

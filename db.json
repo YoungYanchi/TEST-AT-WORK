@@ -1,0 +1,84 @@
+[
+  {
+    "id": "1",
+    "description": {
+      "title": "Сделать что-то",
+      "price": "50 900 ₽",
+      "date": "20",
+      "place": "Санкт-Петербург, ст. м. Маяковская",
+      "task_type": "одноэтапное",
+      "post_type": "горящее"
+    },
+    "dashboard": {
+      "resp": {
+        "oldres": "4",
+        "new": "1"
+      },
+      "views": "211",
+      "favorites": "0",
+      "fit": "0",
+      "progress": "48%"
+    }
+  },
+  {
+    "id": "2",
+    "img": "https://res.cloudinary.com/youngyanchi/image/upload/v1668719137/test/Frame_406_1_wavna7.png",
+    "description": {
+      "title": "Куплю планшет Samsung",
+      "price": "5 000 ₽",
+      "date": "20",
+      "place": "Санкт-Петербург, ст. м. Маяковская",
+      "visibility": "Всем зарегестрированным",
+      "post_type": "премиум"
+    },
+    "dashboard": {
+      "offers": "3",
+      "views": "211",
+      "favorites": "0",
+      "progress": "48%"
+    }
+  },
+  {
+    "id": "3",
+    "img": "https://res.cloudinary.com/youngyanchi/image/upload/v1668960318/test/Frame_406_ph0lld.png",
+    "description": {
+      "title": "Продам кроссовки",
+      "price": "5 000 ₽",
+      "date": "20",
+      "place": "Санкт-Петербург, ст. м. Маяковская",
+      "visibility": "Всем зарегестрированным",
+      "post_type": "поднятие в топ"
+    },
+    "dashboard": {
+      "offers": "3",
+      "views": "211",
+      "favorites": "0",
+      "progress": "48%"
+    }
+  },
+  {
+    "id": "4",
+    "img": "https://res.cloudinary.com/youngyanchi/image/upload/v1668960523/test/Frame_406_1_naldjp.png",
+    "description": {
+      "title": "Художник",
+      "price": "50 900 ₽",
+      "date": "20",
+      "company": {
+        "name": "ООО “АТ-ВОРК”",
+        "place": "Санкт-Петербург, ст. м. Маяковская"
+      },
+      "visibility": "открытая",
+      "post_type": "бесплатно"
+    },
+    "dashboard": {
+      "resp": {
+        "oldres": "3",
+        "new": "1"
+      },
+      "views": "268",
+      "invites": "3",
+      "fit": "16",
+      "progress": "48%"
+    }
+  }
+]
