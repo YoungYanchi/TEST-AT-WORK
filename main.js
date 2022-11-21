@@ -42,7 +42,7 @@ $.ajax({
              
              <div class="catalog__product-card__dashboard">
                 ${item.dashboard.resp === undefined ? "<div class='catalog__product-card__dashboard_hide'></div>" : (
-                    "<div class='catalog__product-card__dashboard_responses'>Откилики " + item.dashboard.resp.oldres + "" +
+                    "<div class='catalog__product-card__dashboard_responses'>Отклики " + item.dashboard.resp.oldres + "" +
                     " + " + item.dashboard.resp.new +"</div>"
                 )}
                 <div class='catalog__product-card__dashboard_views'>${item.dashboard.views} просмотров</div>
